@@ -1,11 +1,11 @@
-import React from 'react';
-import CenterText from './Center';
+import CenterText from "./Center";
+import heroimg from "../assets/bg.png";
 
 const Section = () => {
   return (
-    <div className='section'>
-      <CenterText/>
-     <img id='imageHero' src="./src/bg.png" alt="" />
+    <div className="section">
+      <CenterText />
+      <img src={heroimg} alt="background" id="imageHero"/>
     </div>
   );
 };
